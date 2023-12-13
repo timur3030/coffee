@@ -55,7 +55,7 @@
 }
 
 .hidden {
-  overflow-y: hidden;
+  overflow: hidden;
   height: 100%;
 }
 
