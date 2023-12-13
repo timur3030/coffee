@@ -184,14 +184,14 @@ export function menu_js() {
     `;
     document.body.append(element);
     document.body.style.overflow = "hidden";
-    document.body.style.height: = "100%";
+    document.body.style.height = "100%";
     element.addEventListener(
       "click",
       (e) => {
         if (e.target == element) {
           element.remove();
           document.body.style.overflow = "";
-          document.body.style.height: = "";
+          document.body.style.height = "";
         }
       }
       // { once: true }
@@ -203,7 +203,7 @@ export function menu_js() {
       () => {
         element.remove();
         document.body.style.overflow = "";
-        document.body.style.height: = "";
+        document.body.style.height = "";
       },
       { once: true }
     );
