@@ -183,13 +183,15 @@ export function menu_js() {
         </div>
     `;
     document.body.append(element);
-    document.body.style.overflowY = "hidden";
+    document.body.style.overflow = "hidden";
+    document.body.style.height: = "100%";
     element.addEventListener(
       "click",
       (e) => {
         if (e.target == element) {
           element.remove();
-          document.body.style.overflowY = "";
+          document.body.style.overflow = "";
+          document.body.style.height: = "";
         }
       }
       // { once: true }
@@ -200,7 +202,8 @@ export function menu_js() {
       "click",
       () => {
         element.remove();
-        document.body.style.overflowY = "";
+        document.body.style.overflow = "";
+        document.body.style.height: = "";
       },
       { once: true }
     );
