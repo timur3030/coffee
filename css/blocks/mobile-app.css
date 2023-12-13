@@ -1,0 +1,102 @@
+.mobile-app {
+  padding: 100px 0;
+}
+
+.mobile-app__wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 630px;
+  gap: 100px;
+}
+
+.mobile-app__title {
+  color: #403f3d;
+  font-size: 60px;
+  line-height: 125%;
+}
+
+.mobile-app__title span {
+  color: #b0907a;
+  font-style: italic;
+}
+
+.mobile-app__descr {
+  margin: 40px 0;
+  color: #403f3d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.mobile-app__img {
+  max-height: 630px;
+  max-width: 630px;
+}
+
+.mobile-app__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mobile-app__links {
+  display: flex;
+  column-gap: 20px;
+}
+
+.mobile-app__link {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  padding: 12px 20px;
+  border-radius: 100px;
+  border: 1px solid #665f55;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+@media (hover: hover) {
+  .mobile-app__link:hover {
+    background: #665f55;
+  }
+}
+
+.mobile-app__link-img {
+  width: 36px;
+  height: 36px;
+}
+
+@media (hover: hover) {
+  .mobile-app__link:hover svg path {
+    fill: #e1d4c9;
+  }
+}
+
+.mobile-app__link-text .available {
+  color: #403f3d;
+  text-align: center;
+  font-size: 10px;
+  line-height: 140%;
+  text-align: left;
+}
+
+@media (hover: hover) {
+  .mobile-app__link:hover .mobile-app__link-text .available {
+    color: #e1d4c9;
+  }
+}
+
+.mobile-app__link-title {
+  color: #403f3d;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: left;
+}
+
+@media (hover: hover) {
+  .mobile-app__link:hover .mobile-app__link-title {
+    color: #e1d4c9;
+  }
+}

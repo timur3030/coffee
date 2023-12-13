@@ -1,0 +1,37 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+@import "blocks/header.css";
+@import "blocks/enjoy.css";
+@import "blocks/favourites.css";
+@import "blocks/about.css";
+@import "blocks/mobile-app.css";
+@import "blocks/footer.css";
+@import "blocks/menu.css";
+@import "blocks/burger.css";
+@import "blocks/modal.css";
+@import "blocks/media.css";
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e1d4c9;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+}
